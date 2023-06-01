@@ -110,10 +110,13 @@ footer{
     padding: 50px;
   }
 
-  /*hace que la barra de navegación sea adaptable, utilizando una media query
-  al button-menu-toggle se le pone display block quede fijo cuando el ancho<768px
-  al nav-links se le pone display none para que desaparezca cuando ancho<768px
-  */
+/*Ejercicio: Actualizar la página
+usando la plataforma Github*/
+.saludo{
+  padding-top: 20px;
+  text-align: center;
+}
+
   @media (max-width: 768px) {
     .column {
       flex: 100%;
